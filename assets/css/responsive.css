@@ -1,0 +1,8 @@
+@media only screen and (max-width: 991px) {
+    .form-holder{
+        width: 100%;
+    }
+    .form-content{
+        padding: 75px 68px 0px 68px;
+    }
+}

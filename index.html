@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- SEO META TAGS -->
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <!-- CDN of React -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- CDN of JSX(babel) -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/vendors/fontawesome-free-6.1.1-web/css/all.min.css">
+
+  <title>ioform</title>
+</head>
+
+<body>
+
+  <div class="form-body container-fluid p-0 m-0 vh-100">
+    <div class="logo d-inline-block">
+      <img src="./images/logo.svg" alt="logo" class="logo-img">
+    </div>
+
+    <div class="row m-0 g-0 form-container">
+      <div class="image-holder d-lg-block d-none">
+        <div class="bg"></div>
+      </div>
+      <div class="form-holder">
+        <div class="form-content">
+          <div class="form-items">
+            <h3 class="form-heading">Get more things done with Loggin platform.</h3>
+            <p class="form-para">Access to the most powerfull tool in the entire design and web industry.</p>
+          </div>
+          <div class="page-links" id="pageLinks">
+            <a href="#" id="login" class="active link" onclick="login()">Login</a>
+            <a href="#" id="register" class="link" onclick="register()">Register</a>
+          </div>
+
+          <form class="form-group menu-page" id="form">
+            <div id="login-form">
+              <input class="form-control" type="text" name="username" placeholder="E-mail Address" required id="email">
+              <input class="form-control" type="password" name="password" placeholder="Password" required id="password">
+              <div class="form-button">
+                <button id="login_btn" type="submit" class="ibtn" onclick="loginForm()">Login</button><a href="forget1.html">Forget password?</a>
+              </div>
+            </div>
+
+            <div id="register-form">
+              <input class="form-control" type="text" name="username" placeholder="Full Name" required id="username">
+              <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
+              <input class="form-control" type="password" name="password" placeholder="Password" required>
+              <div class="form-button">
+                <button id="submit" type="submit" class="ibtn" onclick="registrationForm()">Register</button>
+              </div>
+            </div>
+          </form>
+          <div class="other-links">
+            <span>Or login with</span>
+            <a href="#">Facebook</a>
+            <a href="#">Google</a>
+            <a href="#">Linkedin</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/vendors/bootstrap/jquery.min.js"></script>
+  <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
